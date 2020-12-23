@@ -4,11 +4,12 @@
 import os, openpyxl, csv, sys
 
 # Red the terminal
-helpMenssage = """Write the pñath of the .xlsx file, and opcional the destination 
+helpMenssage = """Write the path of the .xlsx file, and opcional the destination 
 folder to the .csv files (example: main.py "user/myfolder/file.xlsx" "user/folderCSV"). 
 If you only type the xlsx file path, the csv files will make in the parent folder (example: main.py "user/myfolder/file.xlsx")
 If you have more that one file, type the parent folder of all xlsx files (example: main.py "user/myfolder") 
 """
+
 if len(sys.argv) == 1: 
     print ('The program need more arguments. ' + helpMenssage)
     sys.exit()
