@@ -1,0 +1,44 @@
+Metadata-Version: 2.1
+Name: excel-csv-converter
+Version: 1.0.1
+Summary: Convert each page from xlsx file to csv files, convert file csv to xlsx document, insert csv data in existing file
+Home-page: UNKNOWN
+Author: Dari Developer
+Author-email: hernandezdarifrancisco@gmail.com
+License: MIT
+Project-URL: Documentation, https://github.com/DariHernandez/excel_csv_converter/blob/master/README.md
+Project-URL: Funding, https://www.paypal.com/paypalme/FranciscoDari
+Project-URL: Source, https://github.com/DariHernandez/excel_csv_converter/
+Description: # Excel csv converter
+        Convert each page from xlsx file to csv files, convert file csv to xlsx document, insert csv data in existing file
+        
+        
+        # Install
+        ``` bash
+        $ pip install excel_csv_converter
+        ```
+        
+        # How to use
+        
+        ``` python
+        # import converter
+        from excel_csv_converter import converter
+        
+        # CONVERT XLSX DOCUMENTS TO CSVs
+        
+        file_xlsx = "c:\\my_file.xlsx"
+        folder_destination = "c:\\my_folder"
+        
+        my_converter = converter.Xlsx_to_csv (file_xlsx, folder_destination)
+        
+        # INSERT CSV FILE IN XLSX DOCUMENT
+        
+        file_csv = "c:\\my_file.csv"
+        file_xlsx_destination = "c:\\my_file.xlsx"
+        
+        my_converter = converter.Csv_to_xlsx (file_csv, file_xlsx_destination)
+        ```
+Keywords: xlsx,csv,excel,extract,convert
+Platform: UNKNOWN
+Requires-Python: >=3.7
+Description-Content-Type: text/markdown

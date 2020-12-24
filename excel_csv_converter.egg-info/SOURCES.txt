@@ -1,0 +1,9 @@
+LICENSE.txt
+README.md
+setup.cfg
+setup.py
+excel_csv_converter.egg-info/PKG-INFO
+excel_csv_converter.egg-info/SOURCES.txt
+excel_csv_converter.egg-info/dependency_links.txt
+excel_csv_converter.egg-info/requires.txt
+excel_csv_converter.egg-info/top_level.txt
