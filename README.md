@@ -40,35 +40,35 @@ Project type: **client's project**
 
 # Install
 
-\\`\\`\\` bash\r
-$ pip install excel_csv_converter\r
-\\`\\`\\`
+``` bash
+$ pip install excel_csv_converter
+```
 
 # Run
 
-\\`\\`\\` python\r
-# import converter\r
-from excel_csv_converter import converter\r
-\r
-# CONVERT XLSX DOCUMENTS TO CSVs\r
-\r
-file_xlsx = \\\"c:\\\\my_file.xlsx\\\"\r
-folder_destination = \\\"c:\\\\my_folder\\\"\r
-\r
-my_converter = converter.Xlsx_to_csv (file_xlsx, folder_destination)\r
-\r
-# INSERT CSV FILE IN XLSX DOCUMENT\r
-\r
-file_csv = \\\"c:\\\\my_file.csv\\\"\r
-file_xlsx_destination = \\\"c:\\\\my_file.xlsx\\\"\r
-\r
-my_converter = converter.Csv_to_xlsx (file_csv, file_xlsx_destination)\r
-\\`\\`\\`
+``` python
+# import converter
+from excel_csv_converter import converter
+
+# CONVERT XLSX DOCUMENTS TO CSVs
+
+file_xlsx = "c:my_file.xlsx"
+folder_destination = "c:my_folder"
+
+my_converter = converter.Xlsx_to_csv (file_xlsx, folder_destination)
+
+# INSERT CSV FILE IN XLSX DOCUMENT
+
+file_csv = "c:my_file.csv"
+file_xlsx_destination = "c:my_file.xlsx"
+
+my_converter = converter.Csv_to_xlsx (file_csv, file_xlsx_destination)
+```
 
 # Roadmap
 
-* [X] Convert excel to csv\r
-* [X] Convert csv to excel\r
+* [X] Convert excel to csv
+* [X] Convert csv to excel
 * [X] Use OOP
 
 
